@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    background-image: url("https://media.istockphoto.com/id/1201531449/es/vector/limpieza-de-iconos-lineales-de-servicio-vector-patr%C3%B3n-sin-costuras-antecedentes-dom%C3%A9sticos.jpg?s=612x612&w=0&k=20&c=Ny7s2VHhJkY8drTO8BYDS47p3LhE4aq4Rt-gOxHrB8w=");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.invoice-container {
+    width: 70%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 0.95em;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+th, td {
+    padding: 6px 10px;
+    text-align: left;
+    border-bottom: 1.5px solid #bbb; 
+}
+
+td {
+    background-color: #fefefe; 
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.company-info {
+    border: 1px solid #007bff;
+    margin-bottom: 8px;
+}
+
+.company-info caption {
+    background-color: #e9f2ff;
+    color: #007bff;
+    font-size: 0.9em;
+    padding: 4px;
+}
+
+.company-info th,
+.company-info td {
+    padding: 4px 6px;
+    font-size: 0.85em;
+}
+
+.customer-info {
+    border: 2px solid #28a745;
+}
+
+.customer-info caption {
+    background-color: #e9faed;
+    color: #28a745;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.customer-info th,
+.customer-info td {
+    padding: 6px 10px;
+    font-size: 0.9em;
+}
+
+.product-list {
+    border: 2px solid #dc3545;
+}
+
+.product-list caption {
+    background-color: #fdecea;
+    color: #dc3545;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.product-list th {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 10px;
+    font-size: 0.9em;
+}
+
+.product-list td {
+    padding: 6px 10px;
+    font-size: 0.9em;
+}
+
+.additional-info {
+    border: 2px solid #ffc107;
+}
+
+.additional-info caption {
+    background-color: #fff8e1;
+    color: #ffc107;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.additional-info th,
+.additional-info td {
+    padding: 6px 10px;
+    font-size: 0.9em;
+}
+
+.additional-info .footer {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    border-top: 1px solid #ddd;
+    padding-top: 8px;
+    font-size: 0.8em;
+}
